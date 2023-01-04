@@ -3,6 +3,6 @@ import App from "./App";
 
 test("renders nav link", () => {
   render(<App />);
-  const navElement = screen.getByText(/Properties/i);
+  const navElement = screen.getByText(/Properties/);
   expect(navElement).toBeInTheDocument();
 });
