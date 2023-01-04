@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Best Place to Stay",
+    "unitType": "Apartment",
+    "thumbUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80",
+    "address": "170 Central Park West, New York, NY 10024"
+  },
+  {
+    "name": "Brooklyn Ave",
+    "unitType": "Apartment",
+    "thumbUrl": "https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80",
+    "address": "1228 York Ave, New York, NY 10065"
+  },
+  {
+    "name": "Large Space With View",
+    "unitType": "Apartment",
+    "thumbUrl": "https://images.unsplash.com/photo-1444084316824-dc26d6657664?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80",
+    "address": "667 Lexington Ave, New York, NY 10029"
+  }
+]

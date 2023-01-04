@@ -1,11 +1,32 @@
-import { AppShell, Navbar, Header, Image, NavLink } from "@mantine/core";
+import {
+  createStyles,
+  AppShell,
+  Navbar,
+  Header,
+  Image,
+  NavLink,
+} from "@mantine/core";
+
 import logo from "./logo.png";
-import "./App.css";
+import properties from "./data.json";
+
+const onClick = (name) => {
+  console.log(`${name} was clicked!`);
+};
+
+const useStyles = createStyles(() => ({
+  body: {
+    backgroundColor: "WhiteSmoke",
+  },
+}));
 
 function App() {
+  const { classes } = useStyles();
+
   return (
     <AppShell
       padding="md"
+      className={classes.body}
       navbar={
         <Navbar width={{ base: 300 }} height={500} p="xs">
           <NavLink
@@ -23,7 +44,7 @@ function App() {
         </Header>
       }
     >
-      {/* Your application here */}
+      {/* Your cards go here */}
     </AppShell>
   );
 }
