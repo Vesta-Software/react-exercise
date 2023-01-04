@@ -1,10 +1,13 @@
 # Vesta React Exercise
 
-Your job is to display cards for ![this data](src/data.json) in the app. A screenshot is below to use as a guide, but we're not looking for a perfect match. There should also be at least one passing test.
+Your job is to display cards for [this data](src/data.json) in the app. A screenshot is below to use as a guide, but we're not looking for a perfect match. There should also be at least one passing test.
 
 ![](screenshot.png)
 
 You should be able to complete this in under an hour. Please don't spend more time unless you **really, really** want to. When you're done, create a branch and make a pull request into main.
+
+\
+&nbsp;
 
 ## Getting Started with Create React App
 
