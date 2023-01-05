@@ -11,9 +11,7 @@ You should be able to complete this in an hour or less. Please don't spend more 
 
 ## Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-First:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). First:
 
 ### `yarn install`
 
