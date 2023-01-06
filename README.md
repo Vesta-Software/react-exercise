@@ -1,6 +1,6 @@
 # Vesta React Exercise
 
-Your job is to display cards for [this data](src/data.json) in the app. A screenshot is below to use as a guide, but we're not looking for a perfect match. There should also be at least one passing test.
+Your job is to display cards for [this data](src/data.json) in the app. A screenshot is below to use as a guide, but we're not looking for a perfect match. There should also be at least one new passing test.
 
 ![](screenshot.png)
 
