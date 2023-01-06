@@ -5,14 +5,12 @@ import {
   Header,
   Image,
   NavLink,
+  SimpleGrid,
 } from "@mantine/core";
 
 import logo from "./logo.png";
 import properties from "./data.json";
-
-const onClick = (name) => {
-  console.log(`${name} was clicked!`);
-};
+import PropertyCard from "./PropertyCard";
 
 const useStyles = createStyles(() => ({
   body: {
@@ -22,6 +20,7 @@ const useStyles = createStyles(() => ({
 
 function App() {
   const { classes } = useStyles();
+  const propertyCards = properties.map(property => <PropertyCard key={property.name} {...property} />)
 
   return (
     <AppShell
@@ -33,7 +32,6 @@ function App() {
             label="Properties"
             color={"violet"}
             variant="filled"
-            r
             active
           />
         </Navbar>
@@ -44,7 +42,18 @@ function App() {
         </Header>
       }
     >
-      {/* Your cards go here */}
+      <SimpleGrid
+        cols={3}
+        spacing="xl"
+        mx="xl"
+        data-testid="card-container"
+        maw={1440}
+        breakpoints={[
+          { maxWidth: 1200, cols: 2 },
+          { maxWidth: 900, cols: 1 }
+        ]}>
+        { propertyCards }
+      </SimpleGrid>
     </AppShell>
   );
 }
