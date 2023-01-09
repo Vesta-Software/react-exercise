@@ -8,11 +8,7 @@ import {
 } from "@mantine/core";
 
 import logo from "./logo.png";
-import properties from "./data.json";
-
-const onClick = (name) => {
-  console.log(`${name} was clicked!`);
-};
+import CardGrid from "./CardGrid";
 
 const useStyles = createStyles(() => ({
   body: {
@@ -44,7 +40,7 @@ function App() {
         </Header>
       }
     >
-      {/* Your cards go here */}
+      <CardGrid />
     </AppShell>
   );
 }
